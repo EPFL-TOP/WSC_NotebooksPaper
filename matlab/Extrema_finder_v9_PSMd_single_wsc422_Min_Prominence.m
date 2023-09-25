@@ -1,7 +1,7 @@
 % Calculating T_plus and T_minus data
 
 
-load('/Volumes/orange2/wsc_raw_intensities_matlab_1906/ws_v9_WSC422_RI_BG.mat')
+load('../wsc_raw_intensities_matlab_1906/ws_v9_WSC422_RI_BG.mat')
 
 
 her1 = horzcat(wsc422_RI_PSMd_single_yfp(1:112,:));
@@ -263,6 +263,7 @@ ylabel('T^-','fontsize',18)
 set(gca,'FontSize',18)
 ylim([0 100])
 
+
 %Generating the PDFs
 
 % [bandwidth1,density1,X1,Y1]=kde2d([Diff_plus_vec/100,T_plus_vec/10]);
@@ -311,3 +312,6 @@ ylim([0 100])
 % subplot(2,2,4)
 % plot(X2(1,65:174),var_up,X2(1,65:174),var_down)
 % 
+
+save('../wsc_raw_intensities_matlab_1906/ws_v9_WSC422_RI_BG.mat')
+

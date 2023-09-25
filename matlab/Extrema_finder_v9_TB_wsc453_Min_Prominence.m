@@ -1,7 +1,7 @@
 % Calculating T_plus and T_minus data
 
 
-load('/Volumes/orange2/wsc_raw_intensities_matlab_1906/ws_v9_WSC453_RI_BG.mat')
+load('../wsc_raw_intensities_matlab_1906/ws_v9_WSC453_RI_BG.mat')
 
 
 
@@ -312,3 +312,5 @@ ylim([0 100])
 % subplot(2,2,4)
 % plot(X2(1,65:174),var_up,X2(1,65:174),var_down)
 % 
+
+save('../wsc_raw_intensities_matlab_1906/ws_v9_WSC453_RI_BG.mat')
