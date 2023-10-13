@@ -215,4 +215,3 @@ dependencies:
   - zstd=1.5.5=hd90d995_0
   - pip:
       - matplotlib==3.7.0
-prefix: /Users/helsens/miniconda3/envs/wsc
