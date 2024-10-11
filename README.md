@@ -1,25 +1,47 @@
-# WSC_NotebooksPaper
+# Repository Overview
 
-This repository contains the python notebooks and in vitro and in vivo data used in the workflow to produce the figures & results in our paper “Cell-autonomous timing drives the vertebrate segmentation clock’s wave pattern” (Rohde et al. 2023). Please use the subject titles of the notebook to find data & code & results of interest. Note, the data folder is not organized according to Rohde et la. 2023 figure number. Enjoy!
+This repository contains annotated Python notebooks, along with the in vitro and in vivo data used in the workflow to produce the figures and results in our eLife paper:  
+**“Cell-autonomous timing drives the vertebrate segmentation clock’s wave pattern”**  
+[DOI: https://doi.org/10.7554/eLife.93764](https://doi.org/10.7554/eLife.93764).
 
-To run the notebooks, please install the following conda enviroment:
+Given the nature of our workflow, the data, analysis code, and results contributing to a given eLife figure are distributed throughout Jupyter notebooks organized by subject. Please start by navigating to the folder **“notebooks”**. The exact data used in each analysis is specified in the respective notebook and can be found in the **“Data”** folder. 
 
-```shell
+> **Note:** Any figure numbers in the Data folder do not correspond directly to the paper.
+
+To ensure the notebooks run without issues, please maintain the repository's directory structure after download. Results in the form of PDF plots are saved inside the **“Results”** folder located within the **“Data”** folder, and have descriptive titles.
+
+## Environment Setup
+
+To run the notebooks, please install the following conda environment:
+
+```bash
 conda env create -f wsc.yml
 ```
-## Notebooks included 
 
-- PSM4 Dynamics in culture Part 1
-- PSM4 Dynamics in the embryo Part 1
-- PSM4 Dynamics in culture Part 2
-- PSM4 Dynamics in the embryo Part 2
-- AP Dynamics in culture Part 1
-- AP Dynamics in culture Part 2
+# Table of Contents of Notebooks
+
+DOI:[https://doi.org/10.7554/eLife.93764](https://doi.org/10.7554/eLife.93764)
+
+The analysis pipeline connecting experimental data and results for each figure in Rohde et al., 2024 can be found in the following Jupyter notebooks:
+
+### eLife Figure 1 and Figure 1 supplements:
+- PSM4 Dynamics in the embryo Part I
+- PSM4 Dynamics in the embryo Part II
+- PSM4 Dynamics in culture Part I
+- PSM4 Dynamics in culture Part II
 - Dynamics by cycle in culture
-- Dynamics by cycle in embryo
+- Dynamics by cycle in the embryo
+
+### eLife Figure 2 and Figure 2 supplements:
 - Backtracked somites
-- TB dynamics in embryo
+- PSM4 Dynamics in culture Part II
+- PSM4 Dynamics in the embryo Part I
+- PSM4 Dynamics in the embryo Part II
+
+### eLife Figure 3 and Figure 3 supplements:
 - FGF in culture Mesp analysis
 - FGF in culture Her1 analysis
 
-All the Jupyter Notebooks can be found in the "notebooks" folder and all the data can be found in the "Data" folder. As long as the repository directory structure is kept after download, the notebooks will run without any problem. All the resulting `.pdf` plots are saved in a "Results" folder inside the "Data" folder. 
+### eLife Figure 4 and Figure 4 supplements:
+- TB dynamics in embryo
+- AP Dynamics in culture 1 & 2
