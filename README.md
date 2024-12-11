@@ -1,8 +1,11 @@
 # Repository Overview
 
-This repository contains annotated Python notebooks, along with the in vitro and in vivo data used in the workflow to produce the figures and results in our eLife paper:  
-**“Cell-autonomous timing drives the vertebrate segmentation clock’s wave pattern”**  
+This repository contains annotated Python notebooks, along with the in vitro and in vivo data used in the workflow to produce the figures and results in our eLife paper:
+**“Cell-autonomous timing drives the vertebrate segmentation clock’s wave pattern”**
+ 
 [DOI: https://doi.org/10.7554/eLife.93764](https://doi.org/10.7554/eLife.93764).
+
+Our raw imaging data can be downloaded at https://sv-open.epfl.ch/upoates-public/Rohde_Bercowsky_eLife2024_Data/
 
 Given the nature of our workflow, the data, analysis code, and results contributing to a given eLife figure are distributed throughout Jupyter notebooks organized by subject. Please start by navigating to the folder **“notebooks”**. The exact data used in each analysis is specified in the respective notebook and can be found in the **“Data”** folder. 
 
